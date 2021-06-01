@@ -43,7 +43,7 @@ class _OrderItemState extends State<OrderItem> {
               duration: Duration(milliseconds: 300),
               padding: const EdgeInsets.all(10),
               height: _expanded
-                  ? min(widget.orderData.products.length * 20.0 + 20, 100)
+                  ? min(widget.orderData.products.length * 20.0 + 10, 100)
                   : 0,
               child: ListView(
                 children: widget.orderData.products
